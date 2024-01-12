@@ -8,7 +8,6 @@ pipeline {
                 echo 'checkout completed'
             }
         }
-
         stage('build') {
             steps {
                 echo 'build completed'
