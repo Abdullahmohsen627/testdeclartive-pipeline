@@ -11,6 +11,7 @@ pipeline {
             steps {
                 echo 'build completed'
                 echo 'new chang'
+                sh'date'
             }
         }
         stage('test') {
