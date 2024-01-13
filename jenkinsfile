@@ -1,6 +1,5 @@
 pipeline {
     agent any
-
     stages {
         stage('scm checkout') {
             steps {
@@ -11,6 +10,7 @@ pipeline {
         stage('build') {
             steps {
                 echo 'build completed'
+                echo 'new changes'
             }
         }
         stage('test') {
